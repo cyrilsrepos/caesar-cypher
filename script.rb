@@ -1,4 +1,4 @@
-def cypher (str, offset)
+def cipher (str, offset)
   alpha_lower = ('a'..'z').to_a
   alpha_upper = ('A'..'Z').to_a
   encrypted_str = ''
@@ -17,4 +17,4 @@ def cypher (str, offset)
   encrypted_str
 end
 
-puts cypher('Test', 1)
+puts cipher('Test', 1)
